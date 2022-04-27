@@ -27,3 +27,4 @@
 - git branch -M main
 - git push -u origin main
 - git push origin mastar
+- git pull origin master(Puxar repositorio antigo, caso ele seja alterado)
