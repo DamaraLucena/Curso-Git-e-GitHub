@@ -48,7 +48,24 @@
 	4.1. Git init: 
 	4.2. Git add:
 	4.3. Git commit: 
-	4.4. Git Status
+	4.4. Git Status:
+	4.5. Git add .:
+
+5+ Comandos GitHub
+
+	5.1. Comando para desconectar email e nome já cadastrados no git 
+		- git config --global --unset user.email	
+		- git config --global --unset user.nickname
+
+	5.2. Comando para adcionar um email e um usuario ao Git
+		- git config user.email "email cadastrado no github"
+		- git config user.name "Nome de usuario do github"
+
+	5.3. Enviar um repositório existente a partir da linha de comando
+
+		- git remote add origin git@github.com:DamaraLucena/Curso-Git-e GitHub.git
+		- git branch -M main
+		- git push -u origin main
 
 
 

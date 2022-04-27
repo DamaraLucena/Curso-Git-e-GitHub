@@ -2,10 +2,28 @@
 
 ## Anotações da Aula de primeiros comandos
 
-#### 1-git init
+- git init
+- git add "\*"
+- git add.
+- git commit -m "commit inicial"
+- git status
 
-#### 2-git add
+## Comandos GitHub
 
-#### 3-git commit -m "commit inicial"
+### Comando para desconectar email e nome já cadastrados no git
 
-#### 4- git status
+- git config --global --unset user.email
+- git config --global --unset user.nickname
+
+### Comando para adcionar um email e um usuario ao Git
+
+- git config user.email "email cadastrado no github"
+- git config user.name "Nome de usuario do github"
+- git config --list
+
+### Enviar um repositório existente a partir da linha de comando
+
+- git remote add origin git@github.com:DamaraLucena/Curso-Git-e GitHub.git
+- git branch -M main
+- git push -u origin main
+- git push origin mastar
