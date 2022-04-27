@@ -64,9 +64,9 @@
 	5.3. Enviar um repositório existente a partir da linha de comando
 
 		- git remote add origin git@github.com:DamaraLucena/Curso-Git-e GitHub.git
-		- git branch -M main
-		- git push -u origin main
-
+		- git branch -M master
+		- git push -u origin master
+		- git pull origin master
 
 
 
