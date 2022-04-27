@@ -7,3 +7,5 @@
 #### 2-git add
 
 #### 3-git commit -m "commit inicial"
+
+#### 4- git status
